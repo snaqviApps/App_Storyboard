@@ -16,6 +16,7 @@
 		9BC29B2123EA66FA00040B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC29B1F23EA66FA00040B17 /* LaunchScreen.storyboard */; };
 		9BC29B2C23EA66FA00040B17 /* App_StoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC29B2B23EA66FA00040B17 /* App_StoryBoardTests.swift */; };
 		9BC29B3723EA66FA00040B17 /* App_StoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC29B3623EA66FA00040B17 /* App_StoryBoardUITests.swift */; };
+		9BDD597023F129FA009A46A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDD596F23F129FA009A46A3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9BC29B3223EA66FA00040B17 /* App_StoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App_StoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC29B3623EA66FA00040B17 /* App_StoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_StoryBoardUITests.swift; sourceTree = "<group>"; };
 		9BC29B3823EA66FA00040B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDD596F23F129FA009A46A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDD597023F129FA009A46A3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				9BC29B2A23EA66FA00040B17 /* App_StoryBoardTests */,
 				9BC29B3523EA66FA00040B17 /* App_StoryBoardUITests */,
 				9BC29B1223EA66F600040B17 /* Products */,
+				9BDD596E23F129FA009A46A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				9BC29B3823EA66FA00040B17 /* Info.plist */,
 			);
 			path = App_StoryBoardUITests;
+			sourceTree = "<group>";
+		};
+		9BDD596E23F129FA009A46A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD596F23F129FA009A46A3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
